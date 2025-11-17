@@ -21,7 +21,7 @@ impl Cat {
         if self.is_sleeping {
             println!("* {} is sleeping and purring... zZz... prrrr... *", self.name);
         } else {
-            println!("* {} looks at you and purrs: Prrrr! 🐱 *", self.name);
+            println!("* {} looks at you and purrs: Prrrr! *", self.name);
         }
     }
 }
